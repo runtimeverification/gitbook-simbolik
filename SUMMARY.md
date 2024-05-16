@@ -4,6 +4,7 @@
 
 * [Simbolik](README.md)
 * [Summary](overview/summary.md)
+* [Troubleshooting](overview/troubleshooting.md)
 
 ## 🔗 Links
 

@@ -45,7 +45,5 @@ As you’d anticipate, **Simbolik** offers all conventional functionalities, fro
 Documentation will be provided here as soon as it is available.
 {% endhint %}
 
-### FAQ
-
 
 
