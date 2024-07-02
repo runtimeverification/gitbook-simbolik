@@ -2,7 +2,7 @@
 
 This guide walks you through the steps to start your first debugging session. We assume you have already set up Simbolik according to the [Getting Started](getting-started.md) guide.
 
-First, you need a Solidity project to debug. We recommend starting with our example project, which is well-tested and known to work with Simbolik.
+First, you need a Solidity project to debug. We recommend starting with our [example project](https://github.com/runtimeverification/simbolik-examples), which is well-tested and known to work with Simbolik.
 
 Open the `test/DebugERC20.sol` file in the VSCode code. A `▷ Debug` button will appear over all [debuggable functions](starting-the-debugger.md#debuggable-functions):
 
