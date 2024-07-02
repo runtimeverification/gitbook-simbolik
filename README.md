@@ -17,11 +17,9 @@ layout:
 
 <figure><img src=".gitbook/assets/simbolik logo blue.png" alt=""><figcaption></figcaption></figure>
 
-[**Simbolik**](https://simbolik.runtimeverification.com/) is a symbolic debugger tailored for [Solidity](https://soliditylang.org/) smart contract debugging. Leveraging the capabilities of the [**K** framework](https://kframework.org/), it employs symbolic execution techniques to meticulously identify potential vulnerabilities in your smart contracts. Conveniently available as a VSCode extension, you can seamlessly integrate it into your development environment directly from the VSCode marketplace.
+Simbolik is a free [Solidity](https://docs.soliditylang.org/) debugger that allows developers to set breakpoints, step through the code, and inspect variables. It is conveniently available as a VSCode extension, so you can seamlessly integrate it into your development environment directly from the [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=RuntimeVerification.simbolik).
 
-{% hint style="warning" %}
-VSCode extension is not published at this time, but as soon as it is this page will be updated with a link.
-{% endhint %}
+Simbolik's most distinguished feature is its symbolic execution mode, which allows its users to formally verify their smart contracts with unmatched precision and accuracy and an intuitive graphical user interface. Access to the symbolic execution mode is currently restricted; please [reach out](https://simbolik.runtimeverification.com/#contact) if you're interested.
 
 ### Why Create Simbolik?
 
