@@ -5,6 +5,7 @@
 * [Simbolik](README.md)
 * [Summary](overview/summary.md)
 * [Getting started](overview/getting-started.md)
+* [Starting the Debugger](overview/starting-the-debugger.md)
 * [Troubleshooting](overview/troubleshooting.md)
 
 ## 🔗 Links
