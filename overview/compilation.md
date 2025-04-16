@@ -1,4 +1,4 @@
-# How Simbolik Compiles Your Project
+# Compilation
 
 Simbolik automatically compiles your project when you click the `▷ Debug` button.  
 For many projects, the default behavior just works out of the box.  
@@ -56,7 +56,7 @@ Manual compilation might be a better fit if:
 
 To turn off automatic compilation, open the extension settings and set the `autobuild` option to `never`.
 
-<figure><img src="../.gitbook/assets/autobuild-setting.png" alt="Autobuild setting"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/autobuild-settings.png" alt="Autobuild setting"><figcaption></figcaption></figure>
 
 Other options include:
 
