@@ -32,10 +32,11 @@ To make sure the debugger works reliably, Simbolik overrides certain compiler se
 ```bash
 FOUNDRY_OPTIMIZER='false'
 FOUNDRY_BUILD_INFO='true'
-FOUNDRY_EXTRA_OUTPUT='["storageLayout", "evm.bytecode.generatedSources", "evm.bytecode.functionDebugData", "evm.legacyAssembly", "evm.deployedBytecode.functionDebugData", "evm.deployedBytecode.immutableReferences"]'
+FOUNDRY_EXTRA_OUTPUT='["storageLayout", "evm.bytecode.generatedSources", "evm.bytecode.functionDebugData", "evm.deployedBytecode.functionDebugData", "evm.deployedBytecode.immutableReferences"]'
 FOUNDRY_BYTECODE_HASH='ipfs'
 FOUNDRY_CBOR_METADATA='true'
 FOUNDRY_FORCE='true'
+FOUNDRY_USE_LITERAL_CONTENT='false'
 forge build
 ```
 
@@ -75,9 +76,10 @@ Your `foundry.toml` should include these settings:
 ```toml
 optimizer = false
 build_info = true
-extra_outputs = ["storageLayout", "evm.bytecode.generatedSources", "evm.bytecode.functionDebugData", "evm.legacyAssembly", "evm.deployedBytecode.functionDebugData", "evm.deployedBytecode.immutableReferences"]
+extra_outputs = ["storageLayout", "evm.bytecode.generatedSources", "evm.bytecode.functionDebugData", "evm.deployedBytecode.functionDebugData", "evm.deployedBytecode.immutableReferences"]
 bytecode_hash = "ipfs"
 cbor_metadata = true
+use_literal_content = false
 ```
 
 You’re also responsible for recompiling after any source code changes.  
