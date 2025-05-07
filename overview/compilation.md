@@ -76,9 +76,10 @@ Your `foundry.toml` should include these settings:
 ```toml
 optimizer = false
 build_info = true
-extra_outputs = ["storageLayout", "evm.bytecode.generatedSources", "evm.bytecode.functionDebugData", "evm.legacyAssembly", "evm.deployedBytecode.functionDebugData", "evm.deployedBytecode.immutableReferences"]
+extra_outputs = ["storageLayout", "evm.bytecode.generatedSources", "evm.bytecode.functionDebugData", "evm.deployedBytecode.functionDebugData", "evm.deployedBytecode.immutableReferences"]
 bytecode_hash = "ipfs"
 cbor_metadata = true
+use_literal_content = false
 ```
 
 You’re also responsible for recompiling after any source code changes.  
